@@ -10,7 +10,7 @@ class ___VARIABLE_productName:identifier___Presenter {
     
     weak var view: ___VARIABLE_productName:identifier___View!
     var interactor: ___VARIABLE_productName:identifier___Interactor!
-    var router: ___VARIABLE_productName:identifier___Router!
+    var router: ___VARIABLE_productName:identifier___Router
 
     init(router: ___VARIABLE_productName:identifier___Router) {
         self.router = router

@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol ___VARIABLE_productName:identifier___View {
+protocol ___VARIABLE_productName:identifier___View: class {
     
     var presenter: ___VARIABLE_productName:identifier___Presenter! { get }
 }
