@@ -22,10 +22,6 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    deinit {
-        presenter.unregister(self)
-    }
 }
 
 extension ___VARIABLE_productName:identifier___ViewController: ___VARIABLE_productName:identifier___View {
