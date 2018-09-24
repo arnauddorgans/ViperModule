@@ -19,4 +19,8 @@ class ___VARIABLE_productName:identifier___Presenter {
     func register(_ view: ___VARIABLE_productName:identifier___View) {
         self.view = view
     }
+    
+    func unregister(_ view: ___VARIABLE_productName:identifier___View) {
+        
+    }
 }
