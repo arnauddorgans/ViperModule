@@ -15,12 +15,7 @@ class ___VARIABLE_productName:identifier___ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        presenter.register(self)
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.presenter.register(self)
     }
 }
 
