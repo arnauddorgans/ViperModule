@@ -8,7 +8,7 @@
 
 class ___VARIABLE_productName:identifier___Presenter {
     
-    weak var view: ___VARIABLE_productName:identifier___View!
+    weak var view: ___VARIABLE_productName:identifier___ViewProtocol!
     var interactor: ___VARIABLE_productName:identifier___Interactor!
     var router: ___VARIABLE_productName:identifier___Router
 
@@ -16,7 +16,7 @@ class ___VARIABLE_productName:identifier___Presenter {
         self.router = router
     }
     
-    func register(_ view: ___VARIABLE_productName:identifier___View) {
+    func register(_ view: ___VARIABLE_productName:identifier___ViewProtocol) {
         self.view = view
     }
 }

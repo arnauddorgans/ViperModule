@@ -6,7 +6,7 @@
 //  ___COPYRIGHT___
 //
 
-protocol ___VARIABLE_productName:identifier___View: class {
+protocol ___VARIABLE_productName:identifier___ViewProtocol: class {
     
     var presenter: ___VARIABLE_productName:identifier___Presenter! { get }
 }
